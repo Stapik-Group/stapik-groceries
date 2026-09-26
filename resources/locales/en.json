@@ -1,0 +1,117 @@
+{
+  "menu.file": "File",
+  "menu.file.connect": "Connect to cloud",
+  "menu.file.sync": "Sync",
+  "menu.file.weeklyPlan": "This week's list",
+  "menu.file.quit": "Exit",
+
+  "menu.month": "Month",
+  "menu.month.delete": "Delete current month…",
+
+  "menu.settings": "Settings",
+  "menu.settings.language": "Language",
+  "menu.settings.language.pl": "Polish",
+  "menu.settings.language.en": "English",
+  "menu.settings.language.de": "German",
+  "menu.settings.theme": "Theme",
+  "menu.settings.theme.classic": "Classic",
+  "menu.settings.theme.classicPink": "Classic Pink",
+  "menu.settings.theme.modern": "Modern",
+  "menu.settings.currency": "Currency",
+
+  "header.newMonth": "New month",
+  "header.categories": "Categories",
+  "header.stats": "Statistics",
+
+  "actions.addProduct": "Add product",
+
+  "action.bought": "Bought",
+  "action.edit": "Edit",
+  "action.delete": "Delete",
+
+  "table.purchased": "purchased",
+  "table.average": "avg.",
+  "table.savings": "savings",
+
+  "category.none": "(no category)",
+
+  "summary.planned": "Planned",
+  "summary.real": "Actual",
+  "summary.savings": "Savings",
+  "summary.offBudget": "Off-list",
+  "summary.projected": "Projected monthly cost",
+
+  "month.january": "January",
+  "month.february": "February",
+  "month.march": "March",
+  "month.april": "April",
+  "month.may": "May",
+  "month.june": "June",
+  "month.july": "July",
+  "month.august": "August",
+  "month.september": "September",
+  "month.october": "October",
+  "month.november": "November",
+  "month.december": "December",
+
+  "dialog.button.ok": "OK",
+  "dialog.button.cancel": "Cancel",
+  "dialog.button.save": "Save",
+
+  "dialog.product.new.title": "New product",
+  "dialog.product.edit.title": "Edit product plan",
+  "dialog.product.name.label": "Name",
+  "dialog.product.category.label": "Category",
+  "dialog.product.unit.label": "Unit",
+  "dialog.product.plannedQuantity.label": "Planned quantity",
+  "dialog.product.plannedPrice.label": "Planned unit price",
+  "dialog.product.error.nameRequired": "Enter a product name.",
+  "dialog.product.error.duplicateName": "A product with this name is already on this month's list.",
+
+  "dialog.purchase.title": "Record purchase",
+  "dialog.purchase.info": "Purchase",
+  "dialog.purchase.quantity.label": "Quantity",
+  "dialog.purchase.paidTotal.label": "Total paid",
+  "dialog.purchase.button.save": "Save purchase",
+
+  "dialog.categories.title": "Categories",
+  "dialog.categories.newName.placeholder": "New category name",
+  "dialog.categories.button.add": "Add category",
+  "dialog.categories.button.close": "Close",
+  "dialog.categories.error.duplicateName": "A category with this name already exists.",
+
+  "confirm.deleteProduct.title": "Delete product",
+  "confirm.deleteProduct.prefix": "Are you sure you want to delete",
+  "confirm.deleteProduct.suffix": "from this month's list?",
+
+  "confirm.deleteMonth.title": "Delete month",
+  "confirm.deleteMonth.prefix": "Are you sure you want to delete the month",
+  "confirm.deleteMonth.suffix": "All its products and purchases will be lost.",
+
+  "confirm.deleteCategory.title": "Delete category",
+  "confirm.deleteCategory.prefix": "Are you sure you want to delete the category",
+  "confirm.deleteCategory.suffix": "Products assigned to it will become uncategorized.",
+
+  "dialog.connect.title": "Connect to cloud",
+  "dialog.connect.url.label": "API URL",
+  "dialog.connect.key.label": "API key",
+  "dialog.connect.key.placeholder": "Enter key",
+  "dialog.connect.button.connect": "Connect",
+
+  "cloud.connected": "Connected",
+  "cloud.connected.secondary": "Successfully connected to the cloud.",
+  "cloud.failed.header": "Connection failed",
+
+  "weeklyPlan.title": "This week's shopping list",
+  "weeklyPlan.week.prefix": "Week",
+  "weeklyPlan.week.of": "of",
+  "weeklyPlan.printHint": "You can print this (Ctrl+P) or check items off on screen.",
+  "weeklyPlan.noCategory": "No category",
+  "weeklyPlan.empty.title": "Nothing left to plan",
+  "weeklyPlan.empty.body": "Everything planned for this month has already been bought — there's nothing left to buy this week.",
+
+  "stats.view.list": "List",
+  "stats.view.chart": "Chart",
+  "stats.title": "Monthly statistics",
+  "stats.projected": "Projected cost"
+}

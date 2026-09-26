@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Stapik Groceries
+Comment=Groceries tracker
+Exec=stapikgroceries
+Icon=stapikgroceries
+Terminal=false
+Categories=Office;Finance;
+StartupWMClass=pl.stapik.groceries

@@ -1,0 +1,117 @@
+{
+  "menu.file": "Datei",
+  "menu.file.connect": "Mit Cloud verbinden",
+  "menu.file.sync": "Synchronisieren",
+  "menu.file.weeklyPlan": "Liste für diese Woche",
+  "menu.file.quit": "Beenden",
+
+  "menu.month": "Monat",
+  "menu.month.delete": "Aktuellen Monat löschen…",
+
+  "menu.settings": "Einstellungen",
+  "menu.settings.language": "Sprache",
+  "menu.settings.language.pl": "Polnisch",
+  "menu.settings.language.en": "Englisch",
+  "menu.settings.language.de": "Deutsch",
+  "menu.settings.theme": "Thema",
+  "menu.settings.theme.classic": "Klassisch",
+  "menu.settings.theme.classicPink": "Klassisch Pink",
+  "menu.settings.theme.modern": "Modern",
+  "menu.settings.currency": "Währung",
+
+  "header.newMonth": "Neuer Monat",
+  "header.categories": "Kategorien",
+  "header.stats": "Statistik",
+
+  "actions.addProduct": "Produkt hinzufügen",
+
+  "action.bought": "Gekauft",
+  "action.edit": "Bearbeiten",
+  "action.delete": "Löschen",
+
+  "table.purchased": "gekauft",
+  "table.average": "Ø",
+  "table.savings": "Ersparnis",
+
+  "category.none": "(keine Kategorie)",
+
+  "summary.planned": "Geplant",
+  "summary.real": "Tatsächlich",
+  "summary.savings": "Ersparnis",
+  "summary.offBudget": "Außerhalb der Liste",
+  "summary.projected": "Geschätzte Monatskosten",
+
+  "month.january": "Januar",
+  "month.february": "Februar",
+  "month.march": "März",
+  "month.april": "April",
+  "month.may": "Mai",
+  "month.june": "Juni",
+  "month.july": "Juli",
+  "month.august": "August",
+  "month.september": "September",
+  "month.october": "Oktober",
+  "month.november": "November",
+  "month.december": "Dezember",
+
+  "dialog.button.ok": "OK",
+  "dialog.button.cancel": "Abbrechen",
+  "dialog.button.save": "Speichern",
+
+  "dialog.product.new.title": "Neues Produkt",
+  "dialog.product.edit.title": "Produktplan bearbeiten",
+  "dialog.product.name.label": "Name",
+  "dialog.product.category.label": "Kategorie",
+  "dialog.product.unit.label": "Einheit",
+  "dialog.product.plannedQuantity.label": "Geplante Menge",
+  "dialog.product.plannedPrice.label": "Geplanter Stückpreis",
+  "dialog.product.error.nameRequired": "Bitte einen Produktnamen eingeben.",
+  "dialog.product.error.duplicateName": "Ein Produkt mit diesem Namen steht bereits auf der Liste dieses Monats.",
+
+  "dialog.purchase.title": "Kauf erfassen",
+  "dialog.purchase.info": "Kauf",
+  "dialog.purchase.quantity.label": "Menge",
+  "dialog.purchase.paidTotal.label": "Gesamt bezahlt",
+  "dialog.purchase.button.save": "Kauf speichern",
+
+  "dialog.categories.title": "Kategorien",
+  "dialog.categories.newName.placeholder": "Name der neuen Kategorie",
+  "dialog.categories.button.add": "Kategorie hinzufügen",
+  "dialog.categories.button.close": "Schließen",
+  "dialog.categories.error.duplicateName": "Eine Kategorie mit diesem Namen existiert bereits.",
+
+  "confirm.deleteProduct.title": "Produkt löschen",
+  "confirm.deleteProduct.prefix": "Möchten Sie wirklich löschen:",
+  "confirm.deleteProduct.suffix": "aus der Liste dieses Monats?",
+
+  "confirm.deleteMonth.title": "Monat löschen",
+  "confirm.deleteMonth.prefix": "Möchten Sie wirklich den Monat löschen:",
+  "confirm.deleteMonth.suffix": "Alle Produkte und Einkäufe darin gehen verloren.",
+
+  "confirm.deleteCategory.title": "Kategorie löschen",
+  "confirm.deleteCategory.prefix": "Möchten Sie wirklich die Kategorie löschen:",
+  "confirm.deleteCategory.suffix": "Zugewiesene Produkte werden unkategorisiert.",
+
+  "dialog.connect.title": "Mit Cloud verbinden",
+  "dialog.connect.url.label": "API-URL",
+  "dialog.connect.key.label": "API-Schlüssel",
+  "dialog.connect.key.placeholder": "Schlüssel eingeben",
+  "dialog.connect.button.connect": "Verbinden",
+
+  "cloud.connected": "Verbunden",
+  "cloud.connected.secondary": "Erfolgreich mit der Cloud verbunden.",
+  "cloud.failed.header": "Verbindung fehlgeschlagen",
+
+  "weeklyPlan.title": "Einkaufsliste für diese Woche",
+  "weeklyPlan.week.prefix": "Woche",
+  "weeklyPlan.week.of": "von",
+  "weeklyPlan.printHint": "Du kannst das ausdrucken (Strg+P) oder am Bildschirm abhaken.",
+  "weeklyPlan.noCategory": "Keine Kategorie",
+  "weeklyPlan.empty.title": "Nichts mehr zu planen",
+  "weeklyPlan.empty.body": "Alles, was für diesen Monat geplant war, wurde bereits gekauft — diese Woche gibt es nichts mehr zu kaufen.",
+
+  "stats.view.list": "Liste",
+  "stats.view.chart": "Diagramm",
+  "stats.title": "Monatsstatistik",
+  "stats.projected": "Geschätzte Kosten"
+}

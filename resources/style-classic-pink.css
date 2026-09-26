@@ -1,0 +1,281 @@
+/* --- Color palette --- */
+@define-color win_bg #f4b6dd;
+@define-color win_blue #7b2ff7;
+@define-color win_blue_light #ff6ec7;
+@define-color win_border_light #ffe0f3;
+@define-color win_border_dark #8c3a72;
+@define-color win_border_black #4a0e4e;
+
+/* --- General rules and rounding reset --- */
+* {
+    font-family: "Arial", sans-serif;
+    font-size: 13px;
+}
+
+window, window.background,
+dialog, dialog > decoration,
+popover, popover contents {
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.groceries-window-frame {
+    border: 1px solid @win_border_black;
+}
+
+window > decoration {
+    border-radius: 0;
+    border: 1px solid @win_border_black;
+    box-shadow: 0 0 0 1px @win_border_black;
+}
+
+window, dialog, dialog .dialog-vbox, popover contents {
+    background-color: @win_bg;
+}
+
+/* --- Title bar --- */
+headerbar {
+    background: linear-gradient(to right, @win_blue, @win_blue_light);
+    padding: 2px 4px;
+    border-bottom: 2px solid @win_border_dark;
+    min-height: 26px;
+}
+
+headerbar .title,
+headerbar label {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+windowcontrols button,
+windowcontrols button:hover,
+windowcontrols button:active,
+windowcontrols button:focus {
+    min-width: 20px;
+    min-height: 18px;
+    padding: 0 2px;
+    box-shadow: none;
+}
+
+/* --- Menu bar and popovers --- */
+menubar {
+    background-color: @win_bg;
+    border-bottom: 1px solid @win_border_dark;
+    padding: 1px;
+}
+
+menubar > item,
+popover modelbutton {
+    padding: 2px 6px;
+    color: @win_border_black;
+    border-radius: 0;
+}
+
+popover modelbutton {
+    padding: 2px 16px;
+}
+
+menubar > item:hover,
+popover modelbutton:hover {
+    background-color: @win_blue;
+    color: #ffffff;
+}
+
+popover contents {
+    border: 2px solid;
+    border-color: @win_border_light @win_border_dark @win_border_dark @win_border_light;
+    padding: 2px;
+}
+
+/* --- Buttons --- */
+button {
+    background-image: none;
+    background-color: @win_bg;
+    border-radius: 0;
+    border: 2px solid;
+    border-color: @win_border_light @win_border_dark @win_border_dark @win_border_light;
+    box-shadow: 1px 1px 0 @win_border_black;
+    padding: 2px 8px;
+    color: @win_border_black;
+}
+
+button:hover {
+    background-color: @win_bg;
+}
+
+button:active {
+    border-color: @win_border_dark @win_border_light @win_border_light @win_border_dark;
+    box-shadow: none;
+    padding-top: 3px;
+    padding-right: 7px;
+    padding-bottom: 1px;
+    padding-left: 9px;
+}
+
+button.suggested-action {
+    background-color: @win_blue;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 5px 14px;
+}
+
+button.suggested-action:hover {
+    background-color: @win_blue_light;
+}
+
+button.destructive-action {
+    background-color: #800000;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+button.destructive-action:hover {
+    background-color: #a00000;
+}
+
+/* --- Entry / DropDown --- */
+entry,
+dropdown button {
+    background-color: #ffffff;
+    border: 2px solid;
+    border-color: @win_border_dark @win_border_light @win_border_light @win_border_dark;
+    border-radius: 0;
+    color: @win_border_black;
+}
+
+entry {
+    padding: 2px 4px;
+}
+
+/* --- SpinButton --- */
+spinbutton {
+    background-color: transparent;
+    background-image: none;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+spinbutton > text {
+    background-color: #ffffff;
+    background-image: none;
+    border: 2px solid;
+    border-color: @win_border_dark @win_border_light @win_border_light @win_border_dark;
+    border-radius: 0;
+    box-shadow: none;
+    color: @win_border_black;
+    padding: 2px 4px;
+}
+
+spinbutton > button,
+spinbutton > button.up,
+spinbutton > button.down {
+    background-image: none;
+    background-color: @win_bg;
+    border: 2px solid;
+    border-color: @win_border_light @win_border_dark @win_border_dark @win_border_light;
+    border-radius: 0;
+    box-shadow: 1px 1px 0 @win_border_black;
+    color: @win_border_black;
+    padding: 3px;
+}
+
+spinbutton > button.down {
+    margin-right: 3px;
+}
+
+spinbutton > button:disabled {
+    color: @win_border_dark;
+}
+
+label.error {
+    color: #800000;
+    font-weight: bold;
+}
+
+/* --- Groceries actions bar --- */
+.groceries-actionsbar {
+    background-color: @win_bg;
+    border-bottom: 1px solid @win_border_dark;
+    padding: 6px 10px;
+}
+
+/* --- Groceries --- */
+.groceries-current-month {
+    color: @win_border_black;
+    font-weight: bold;
+    padding: 0 8px;
+}
+
+/* --- Groceries summary panel --- */
+.groceries-summary {
+    background-color: @win_bg;
+    border: 2px solid;
+    border-color: @win_border_dark @win_border_light @win_border_light @win_border_dark;
+    padding: 8px 12px;
+    margin: 6px 10px;
+    border-radius: 0;
+}
+
+.groceries-summary .summary-figure {
+    color: @win_border_black;
+    font-weight: bold;
+}
+
+.groceries-summary .summary-caption {
+    color: @win_border_dark;
+    font-size: 0.92em;
+}
+
+/* --- Groceries product list --- */
+.groceries-table,
+.groceries-table > viewport,
+.groceries-list {
+    background-color: @win_bg;
+}
+
+/* --- Groceries product rows --- */
+.groceries-row {
+    padding: 5px 8px;
+    margin: 1px 4px;
+    border-bottom: 1px solid @win_border_dark;
+    background-color: @win_bg;
+}
+
+.groceries-row:hover {
+    background-color: #d4d4e8;
+}
+
+.groceries-product-name {
+    color: @win_border_black;
+    font-weight: bold;
+}
+
+.groceries-category-chip {
+    min-width: 12px;
+    min-height: 12px;
+    border-radius: 0;
+    border: 1px solid @win_border_black;
+    margin-right: 4px;
+}
+
+.groceries-savings-positive {
+    color: #008000;
+    font-weight: bold;
+}
+
+.groceries-savings-negative {
+    color: #800000;
+    font-weight: bold;
+}
+
+.groceries-row-actions button {
+    padding: 3px 10px;
+    font-size: 0.85em;
+}
+
+.groceries-stats-heading {
+    color: @win_border_black;
+    font-weight: bold;
+    font-size: 1.1em;
+}
